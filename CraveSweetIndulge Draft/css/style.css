@@ -1,0 +1,521 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  color: purple;
+  font-size: 26px;
+  line-height: 1.4;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background: #f0efef;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header div h1.links {
+  text-align:center;
+  font-family: 'Fredoka One', cursive;  
+  color: #340869;
+  font-size:60px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+header div h1.links:hover {
+  color: #F2F29B;
+} 
+
+h4 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Fredoka One', cursive; 
+  color: #340869;
+  padding-top: 2%;
+  text-shadow: 2px 2px #FAF6F0;
+}
+
+footer div h4#postAPic {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Pacifico', cursive; 
+  color: #340869;
+  padding-top: 5%;
+}
+
+header #top {
+  background-color: #78648C;
+/*  background-image: url("https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRthGsjSq_yZq4MCGtkM5MGYRERwQOLKw1dBvRJgUXM9d1jxRrn");*/
+  background-image: url("https://41.media.tumblr.com/5fc37b8beaed7949da305ae495556316/tumblr_nisya0Ce6k1u6xkrto1_500.jpg");
+  padding: 20px 0;
+  overflow: hidden;
+}
+
+header nav#subtitles {
+  font-family: 'Fredoka One', cursive;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header nav ul li a {
+  color: #91168D;
+  border-radius: 25%;
+ /* background-color: #4F2485;*/
+  background-color: #340869;
+  font-size: 20px;
+  padding: 5px 10px;
+}
+
+header nav ul li.webPage {
+ display: inline-block;
+ padding: 0 2%;
+ position: relative;
+ vertical-align: middle;
+}
+
+header nav ul li#logo img {
+   border-radius: 60px;
+   width: 55%;
+   height: 55%;
+   padding-top: 10%;
+
+}
+
+a:hover {
+  color: #C7E063;
+}
+
+body div#main article{
+  text-align: center;
+  background-color: #C5B6CF;
+  opacity: 0.8;
+  border-radius: 10%;
+  font-family: 'Limelight', cursive;
+  padding: 40px 20px;
+  margin: 0 0;
+}
+
+body div#main {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/57/79/f1/5779f1b730f43cb59b5b64b20561f03b.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body div#main article {
+  opacity: 0;
+  color: blue;
+}
+
+body div article p{
+  
+  color: #DB5363;
+  /*border-radius: 10%;
+  margin-top: 10%;
+  font-family: 'Limelight', cursive;
+  margin-bottom: 10%;*/
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer div.socialMedia {
+  background-color: #76647D;
+}
+
+  footer div.socialMedia ul {
+  text-align:center;
+}
+
+footer div.socialMedia ul li {
+  display:inline-block;
+  text-align:center;
+  margin: 3%;
+  padding-bottom: 3%;
+}
+
+footer div.socialMedia ul li a{
+  color: #4F1A6E;
+}
+
+footer div.socialMedia ul li.spin {
+  color: #DB5376;
+  position: relative;
+  top: -5px;
+  font-size: 2rem;
+}
+
+p#copyRight {
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+  padding-bottom: 1%;
+  margin-left: 2%;
+  color: #DB5363;
+}
+
+/******************************************
+/* ABOUT CRAVINGS
+/*******************************************/
+
+body div#main1 {
+  background-color: purple;
+  background-image: url("https://cookcurrynook.files.wordpress.com/2010/12/the-chocolate-fest.jpg");
+  background-size: cover;
+  font-family: 'Fredoka One', cursive;
+}
+
+article {
+  margin: 0% 20%;
+  font-size: 32px;
+  color: #DB5363;
+  padding: 10%;
+}
+
+article p#p1 {
+  text-align: center;
+  background-color: #C5B6CF;
+  opacity: 0.8;
+  border-radius: 10%;
+  font-family: 'Limelight', cursive;
+  padding: 40px 20px;
+}
+
+article p#p2{
+  text-align: center;
+  background-color: #C5B6CF;
+  opacity: 0.8;
+  border-radius: 10%;
+  margin-top: 10%;
+  font-family: 'Limelight', cursive;
+  margin-bottom: 10%;
+}
+
+article div {
+  text-align: center;
+}
+
+article div a#addAPlace{
+  background-color: #DB5363;
+  border-radius: 10%;
+  margin-top: 10%;
+  font-family: 'Fredoka One', cursive;
+  margin-top: 40px;
+  color: #340869;
+  padding: 5px 10px;
+}
+
+article div a#addAPlace:hover{
+  color: #C7E063;
+}
+
+/******************************************
+/* PLACES TO GO
+/*******************************************/
+body div#main2 {
+
+  background-image: url("http://www.geekalerts.com/u/Halloween-Cookie-Cutter-Set.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+}
+body div#main2 h4#PlacesToGo{
+/*  text-align: center;*/
+  margin: 1% 2%;
+  font-size: 40px;
+/*  border: 1px solid black;*/
+  padding: 0px;
+  text-shadow: 3px 5px #E39424;
+  
+}
+
+body div p#yelp {
+  padding: 2% 20%;
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  text-shadow: 2px 2px #33E839;
+  font-size: 30px;
+}
+
+body div ul#cravings {
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Fredoka One', cursive;
+  padding: 2%;
+  text-shadow: 3px 3px #E39424;
+
+}
+
+
+
+/******************************************
+/* ADD A PLACE
+/*******************************************/
+
+body div#main3 {
+  color: purple;
+  font-size: 26px;
+  line-height: 1.4;
+  font-weight: 300;
+  background: #f0efef;
+  text-align: left;
+  position: relative;
+  max-width: 960px;
+}
+
+body div#main3 form#addAPlace {
+  border: 1px solid #000;
+  width: 70%;
+  margin: 0px auto;
+}
+
+body div#main3 form label {
+  display: inline-block;
+  width: 200px;
+  font-family: 'Limelight', cursive;
+}
+
+body div#main3 form input[type=text], 
+body div#main3 form input[type=location]
+body div#main3 form input[type=address] {
+  padding: 5px 10px;
+  vertical-align: middle;
+  
+}
+
+body div form input#submit {
+
+  color: purple;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #606161;
+  border-radius: 10px;
+  display: block;
+  position: relative;
+  text-align: right;
+}
+
+body div button#Java {
+  font-size: 32px;
+  background-color: #340869;
+  color: #C7E063;
+  border-radius: 10px;
+  font-family: 'Limelight', cursive;
+  text-align: center;
+}
+
+body div#main3 {
+  text-align: center;
+}
+
+
+/******************************************
+/* PICTURES
+/*******************************************/
+body {
+  color: #043049;
+  font-size: 26px;
+  line-height: 1.4;
+  color: #606161;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background: #f0efef;
+}
+a {
+  text-decoration: none;
+}
+
+
+div.carousel {
+  margin: 0 auto;
+  max-width: 560px;
+}
+
+.owl-nav > div {
+
+  display: inline-block;
+
+}
+
+.owl-nav .owl-next {
+
+  float: right;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media only screen and (max-width : 1235px) {
+
+  header nav ul li.webPage {
+      padding: 0;
+  }
+
+  /* Breakpoint 1 */
+  @media only screen and (max-width : 1015px) {
+
+  header nav ul li#logo img {
+     display:none;
+  }
+
+   article {
+    font-family: 'Limelight', cursive;
+    padding: 5% 0%;
+  }
+
+  article p#p2{
+    margin-top: 10%;
+    font-family: 'Limelight', cursive;
+    margin-bottom: 10%;
+  }
+
+}
+
+
+/* iPad Breakpoint */
+@media only screen and (max-width : 834px) {
+
+  header div h1.links {
+  text-align:center;
+  font-family: 'Fredoka One', cursive;  
+  color: #340869;
+  font-size:28px;
+  }
+
+  header nav#subtitles {
+  font-family: 'Fredoka One', cursive;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  }
+
+  header nav ul li a {
+  text-align: center;
+  font-size: 14px;
+  }
+
+  header nav ul li.webPage {
+  vertical-align: middle;
+  margin-top: 3px;
+  }
+
+  footer div.socialMedia ul li a {
+  font-size: 1rem;
+  }
+
+  footer div.socialMedia ul li.spin {
+    color: #DB5376;
+    position: relative;
+    top: -5px;
+    font-size: 1rem;
+  }
+
+  p#copyRight {
+  font-size: 14px;
+  font-family: 'Cabin', sans-serif;
+  padding-bottom: 1%;
+  margin-left: 2%;
+  color: #DB5363;
+  }
+
+}
+
+/* iPhone Breakpoint */
+@media only screen and (max-width : 524px) {
+
+/*footer div.socialMedia {
+  background-color: #78648C;
+  padding: 0px;
+}*/
+
+  header nav#subtitles {
+  margin: 0 auto;
+  max-width: 40%;
+  }
+
+
+  footer div.socialMedia ul {
+    text-align:center;
+  }
+
+  footer div.socialMedia ul li {
+    display:inline-block;
+    text-align:center;
+  /*  margin: 3%;
+    padding-bottom: 3%;*/
+  }
+
+  footer div.socialMedia ul li a{
+    color: #4F1A6E;
+    margin: 0;
+    padding: 0;
+  }
+
+  footer div.socialMedia ul li.spin {
+    display: none;
+  }
+
+}
+
+
+
+
+
